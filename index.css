@@ -1,0 +1,131 @@
+/* Designed from top to bottom */
+
+html, body {
+    /* width: 320px; */
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #1B1924;     
+}
+
+.appContainer {
+    /* border: 3px solid blue; */
+    width: 380px;
+    padding: 10px;
+}
+
+#heroImg {
+    width: 90px;
+    position: relative;   
+}
+
+h1 {
+    color: #FFFFFF ;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+ input, button {
+    width: 317px;
+    height: 118px;
+    background: #444059;
+    border-style: none;
+    border-radius: 8px; 
+ }
+
+input::placeholder {
+    padding: 5px;
+    color: #28A9F1;
+    font-size: .8em;
+    font-style: italic;
+    opacity: 30%; 
+    
+}
+/* how to get placeholder text top-left justified?  */
+
+#inputBtn{
+    width: 317px;
+    height: 61px;
+    display: grid;
+    margin: auto;
+    background: #28A9F1;
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 8px;
+    font-family: "Josefin Sans";
+    font-size: 22px;
+    font-weight: 700;
+    color:#04131C;
+    padding: 20px;
+}
+
+h2 {
+    color: #FFFFFF ;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* this area is broken on screen-resize */
+#endorsementsArea {
+    /* border: 3px solid red; */
+    width: 317px;   
+}
+
+p {
+    padding: 5px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px; 
+    background-color: whitesmoke;
+}
+
+#clearBtn {
+    width: 317px;
+    height: 61px;
+    display: grid;
+    margin: auto;
+    background-color: black;
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 8px;
+    font-family: "Josefin Sans";
+    font-size: 22px;
+    font-weight: 700;
+    color: red;
+    padding: 20px;  
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#clearBtn:hover {
+    background-color: whitesmoke;
+}
+
+/* code for recycling */
+
+/* ul {
+    width: 275px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px; 
+} */
+/* li {
+    border: 3px solid gold;
+    width: 300px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+      
+} */

@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <div class="appContainer">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>We are the Champions</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;0,700;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="hero">
+            <img class="center" id="heroImg" src="/assets/freddie.png">
+            <h1>We are the Champions</h1>
+        </div>
+        <div id="inputArea"> 
+            <input id="input" class="center" placeholder="Write Your Endorsements Here.">
+            <button class="center" id="inputBtn">Publish</button>
+        </div>
+        <div class="center">
+            <h2>- Endorsements -</h2>
+            <div class="center" id="endorsementsArea">
+                <!-- endorsements pulled from firebase render here -->
+            </div>    
+            <div class="center">
+                <button class="center" id="clearBtn">Clear</button> 
+            </div>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
